@@ -2,8 +2,6 @@
     var porta = createSprite(200, -50);
     var escalador = createSprite(200,10);
    
-    blocoInvisivel.width = escalador.width;
-    blocoInvisivel.height = 2;
     
     porta.x = Math.round(random(120,400));
     escalador.x = porta.x;
