@@ -7,8 +7,8 @@
     escalador.x = porta.x;
     
     
-    porta.addImage(imagemDaPorta);
-    escalador.addImage(imagemDeEscalador);
+    porta.addImage(imagemdaporta);
+    escalador.addImage(imagemdeescalador);
     
     porta.velocityY = 1;
     escalador.velocityY = 1;
@@ -22,6 +22,6 @@
 
     
     //adicione cada porta ao grupo
-    grupoDePortas.add(porta);
-    grupoDeEscaladores.add(escalador);
+    grupodeportas.add(porta);
+    grupodeescaladores.add(escalador);
   
